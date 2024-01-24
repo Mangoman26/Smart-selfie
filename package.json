@@ -1,0 +1,16 @@
+{
+  "name": "computer-vision-based-smart-selfie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "npx tailwindcss -i ./static/styles/input.css -o ./static/styles/output.css --watch",
+    "build-css": "npx tailwindcss -i ./static/styles/input.css -o ./static/styles/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
